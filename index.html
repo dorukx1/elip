@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>17. Yaş — Elif</title>
+<link rel="icon" type="image/png" href="icon.JPG">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -235,18 +236,19 @@
 <!-- ================= HERO / SLIDER ================= -->
 <header class="hero">
   <div class="slider" id="slider">
-    <div class="slide active" style="background-image:url('https://picsum.photos/seed/aile1/1600/1000')"></div>
-    <div class="slide" style="background-image:url('https://picsum.photos/seed/aile2/1600/1000')"></div>
-    <div class="slide" style="background-image:url('https://picsum.photos/seed/aile3/1600/1000')"></div>
-    <div class="slide" style="background-image:url('https://picsum.photos/seed/aile4/1600/1000')"></div>
-    <div class="slide" style="background-image:url('https://picsum.photos/seed/aile5/1600/1000')"></div>
+    <div class="slide active" style="background-image:url('images/ikimiz.JPG')"></div>
+    <div class="slide" style="background-image:url('images/ikimizdis.JPG')"></div>
+        <div class="slide" style="background-image:url('icon.JPG')"></div>
+    <div class="slide" style="background-image:url('images/istanbul.jpg')"></div>
+    <div class="slide" style="background-image:url('images/kelgozubuyuk.jpg')"></div>
+    <div class="slide" style="background-image:url('images/burun.jpg')"></div>
   </div>
   <button class="slider-arrow prev" id="prevBtn" aria-label="Önceki fotoğraf">‹</button>
   <button class="slider-arrow next" id="nextBtn" aria-label="Sonraki fotoğraf">›</button>
 
   <div class="hero-content">
     <span class="eyebrow">Bir Kardeşten, Kalpten</span>
-    <h1><em>Elif</em>'ye 17. yaş<br>armağanı</h1>
+    <h1><em>Elif</em>'e 17. yaş<br>armağanı</h1>
     <p class="tagline">Büyüdükçe daha da özel biri oldun. Bugün senin günün — gülümse, keyfine bak, sana ne kadar değer verdiğimizi hatırla.</p>
     <div class="cta-row">
       <button class="btn btn-primary" onclick="document.getElementById('mektup').scrollIntoView({behavior:'smooth'})">Mektubu Oku</button>
@@ -270,7 +272,7 @@
       <p>Bugün 17 yaşına giriyorsun ve bunun ne kadar özel bir şey olduğunu bilmeni istiyorum. Küçükken birlikte geçirdiğimiz onca anı, kavga ettiğimiz saçma şeyler, sonra yine bir araya gelip güldüğümüz akşamlar... hepsi bugüne geldiğimizde çok değerli hâle geldi.</p>
       <p>Büyüdükçe hem daha güçlü hem daha kendine güvenen biri oldun ve bunu görmek gerçekten gurur verici. Bu yeni yaşın sana sağlık, huzur ve içini ısıtan güzel anılar getirmesini diliyorum.</p>
       <p>İyi ki varsın, iyi ki kardeşimsin.</p>
-      <div class="letter-sign">— Seni çok seven [SEN]</div>
+      <div class="letter-sign">— Seni çok seven Abiş</div>
     </div>
   </div>
 </section>
@@ -280,9 +282,7 @@
   <div class="section-inner">
     <span class="kicker">Anı Defteri</span>
     <h2 class="section-title">Fotoğraf galerisi</h2>
-    <p class="section-sub">İstediğiniz kadar fotoğraf ekleyebilirsiniz — aşağıdaki kutucuklar örnek olarak konuldu, kod içinde her birinin <code>src</code> kısmını kendi fotoğraflarınızla değiştirin.</p>
     <div class="gallery-grid" id="galleryGrid"></div>
-    <p class="gallery-note">Daha fazla fotoğraf eklemek için aynı kart bloğunu kopyalayıp yapıştırmanız yeterli — grid otomatik genişler.</p>
   </div>
 </section>
 
@@ -291,38 +291,23 @@
   <div class="section-inner">
     <span class="kicker">Sevenlerinden</span>
     <h2 class="section-title">Sana birkaç söz</h2>
-    <p class="section-sub">Metinleri kendi ailenizin ve arkadaşlarınızın sözleriyle değiştirebilirsiniz.</p>
     <div class="quote-grid">
       <div class="quote-card">
-        <p>Küçük kardeşimin bu kadar olgun ve tatlı bir insana dönüşmesini izlemek gurur verici. İyi ki varsın.</p>
-        <span class="who">Ablan / Abin</span>
+        <p>Noobcuk artık büyüyorsun 17 yaşındasın. Sonunda evden kovulmana 1 yıl kaldı. Odanı ben alacağım.</p>
+        <span class="who">Abin</span>
       </div>
       <div class="quote-card">
-        <p>Yıllardır yanımdasın, her zorlukta destek oldun. Bu yaşın sana çok güzel şeyler getirsin.</p>
-        <span class="who">En Yakın Arkadaşın</span>
+        <p>Benim güzel meleğim, canım kızım hayattaki en büyük şansım birlikte geçireceğimiz nica sağlıklı mutlu yıllarımız olsun. Seni çok seviyorum.</p>
+        <span class="who">Annen</span>
       </div>
       <div class="quote-card">
-        <p>Seninle geçirdiğim her an değerli. Nice mutlu, sağlıklı yaşlara canım kızım.</p>
-        <span class="who">Ailenden Biri</span>
+        <p>Meow meow. mow...</p>
+        <span class="who">Peri</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= MOMENTS TIMELINE ================= -->
-<section class="moments" id="anlar">
-  <div class="section-inner">
-    <span class="kicker">Yıllar İçinde</span>
-    <h2 class="section-title">Birlikte geçirdiğimiz anlar</h2>
-    <p class="section-sub">Bu bölüme birkaç önemli anıyı kısa notlarla ekleyebilirsiniz.</p>
-    <div class="moment-list">
-      <div class="moment-item"><span class="year">2015</span><div><h3>İlk okul anısı</h3><p>Buraya o döneme dair kısa, sevimli bir anıyı yazabilirsiniz.</p></div></div>
-      <div class="moment-item"><span class="year">2019</span><div><h3>Birlikte çıktığımız tatil</h3><p>Bu kısma o tatile dair unutulmaz bir detayı ekleyin.</p></div></div>
-      <div class="moment-item"><span class="year">2023</span><div><h3>Yeni bir bağ</h3><p>Son yıllarda birbirinize daha da yakınlaştığınız bir anı buraya gelebilir.</p></div></div>
-      <div class="moment-item"><span class="year">Bugün</span><div><h3>17. yaş günü</h3><p>Ve işte bugün, bu güzel günü kutluyoruz.</p></div></div>
-    </div>
-  </div>
-</section>
 
 <!-- ================= FOOTER ================= -->
 <footer>
@@ -368,12 +353,12 @@
 
   // ---------- GALLERY GENERATOR ----------
   const galleryGrid = document.getElementById('galleryGrid');
-  const captions = ['Sevgiyle','Gülüşün','O yaz','Beraber','Sürpriz an','En sevdiğim kare','Aile','O gün','Kahkaha','Huzur','Küçükken','Bugün'];
+  const captions = ['Une','Dondurma seni yemiş','İlk fotoğrafın','Hawli','E.T.','Ergen kız postu','Fav','Havuç','17 yaş hawli','Balık','Aynı sen','Kızgın'];
   for(let i=1;i<=12;i++){
     const div = document.createElement('div');
     div.className = 'frame-card';
     div.innerHTML = `
-      <div class="frame"><img src="https://picsum.photos/seed/aniresim${i}/500/500" alt="Anı fotoğrafı ${i}"></div>
+      <div class="frame"><img src="images/${i}.jpg" alt="Anı fotoğrafı ${i}"></div>
       <div class="cap">${captions[i-1]}</div>
     `;
     galleryGrid.appendChild(div);
